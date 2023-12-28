@@ -5,7 +5,7 @@ const Footer = () => {
     <div className=' w-full  bg-gradient-to-b to-black from-gray-700 py-2'>
      <div className=' max-w-[1520px] mx-auto '>
         <p className=' font-bold text-orange-500 text-center text-2xl'>YUM EATS</p>
-        <div className=' w-full grid  sm:grid-cols-2 lg:grid-cols-4 my-4'>
+        <div className=' w-full grid  grid-cols-2 lg:grid-cols-4 my-4 mx-auto'>
             <div className=' flex flex-col mx-auto'>
                 <p className=' font-bold text-white my-2  border-b-pink-800 border-b-2 p-1'>Company</p>
                 <p className=' text-white'>About Us</p>
@@ -32,7 +32,7 @@ const Footer = () => {
             </div>
             <div className='mx-auto'>
                 <p className=' font-bold text-white my-2 border-b-pink-800 border-b-2 p-1 '>Follow Us</p>
-                <div className=' flex justify-between gap-1'>
+                <div className=' flex justify-between gap-1 '>
                     <a><FaFacebook
                        className=' text-white'
                        size={20}

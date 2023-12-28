@@ -21,7 +21,7 @@ const Meals= () => {
              <button onClick={()=>filtercat("salad")} className='mx-2 font-bold bg-orange-600 border  text-white p-2 rounded-2xl hover:bg-white hover:text-orange-600 hover:border-orange-600 duration-300'>SALAD</button>
              
         </div>
-        <div className=' w-full grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mx-2 gap-4 my-8 '>
+        <div className=' w-full grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mx-auto gap-4 my-8 '>
             {foods.map((item)=>(
                 <div key={item.id} className=' shadow-md shadow-white bg-white p-2 border-2 rounded-2xl mx-4 hover:scale-105  duration-300'>
                     <img
